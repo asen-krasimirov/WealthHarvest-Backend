@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  test:
+  run_tox:
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
